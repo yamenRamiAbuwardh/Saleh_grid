@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* 
+       ? div big is the div who take the first half 
+ */
+.div_big {
+  display: grid;
+  grid-template-columns: 100px 50px 50px;
+  text-align: center;
+  height: 30px;
+}
+/* 
+  ? the dbi text is the word د ب ي 
+*/
+.text_dbi {
+  border: 1px solid black;
+}
+.text_dbi_2 {
+  border: 1px solid black;
+  border-bottom: none ;
+}
+
+/* 
+  ? this div is the div image 
+*/
+.div_image_saudia{
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 0 10px 10px 0 ;
+}
+.img_saudia {
+  width: 30%;
+}
+/* 
+  ? this is the second half   
+*/
+.div_big_2{
+  display: grid;
+  grid-template-columns: 100px 50px 50px;
+  text-align: center;
+}
+/* 
+  ! the letter is the letter K S a 
+*/
+.letter {
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 1em;
+}
